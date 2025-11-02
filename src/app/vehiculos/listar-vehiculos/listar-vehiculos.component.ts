@@ -8,7 +8,7 @@ import { Vehiculo } from '../vehiculo';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './listar-vehiculos.component.html',
-  styleUrls: ['./listar-vehiculos.component.scss']
+  styleUrls: ['./listar-vehiculos.component.css']
 })
 export class ListarVehiculosComponent implements OnInit {
   vehiculos: Vehiculo[] = [];
