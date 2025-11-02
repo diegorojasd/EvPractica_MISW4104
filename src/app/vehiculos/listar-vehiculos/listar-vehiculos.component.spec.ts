@@ -4,6 +4,7 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { ListarVehiculosComponent } from './listar-vehiculos.component';
+import { VehiculosService } from '../vehiculos.service';
 
 describe('ListarVehiculosComponent', () => {
   let component: ListarVehiculosComponent;
